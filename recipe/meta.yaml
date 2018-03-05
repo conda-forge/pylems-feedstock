@@ -1,6 +1,6 @@
 {% set name = "PyLEMS" %}
-{% set version = "0.4.9" %}
-{% set sha256 = "25072f3dd4cf0aa39b0e1a54f4d9fd1aa204dcc8feeaf2dcb4bb31cfe91d61b4" %}
+{% set version = "0.4.9.1" %}
+{% set sha256 = "5d4f9716b223e73bbbcf9e976ec9cf1633f76f3f36f86038e3679ee70bde49c7" %}
 
 package:
   name: {{ name|lower }}
