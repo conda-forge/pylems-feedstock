@@ -14,14 +14,15 @@ Summary: A Python library for working with the Low Entropy Model Specification l
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pylems-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pylems-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pylems-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pylems-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pylems-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pylems-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pylems-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pylems-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pylems/badges/version.svg)](https://anaconda.org/conda-forge/pylems)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pylems/badges/downloads.svg)](https://anaconda.org/conda-forge/pylems)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pylems-green.svg)](https://anaconda.org/conda-forge/pylems) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pylems.svg)](https://anaconda.org/conda-forge/pylems) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pylems.svg)](https://anaconda.org/conda-forge/pylems) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pylems.svg)](https://anaconda.org/conda-forge/pylems) |
 
 Installing pylems
 =================
