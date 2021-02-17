@@ -5,11 +5,11 @@ Home: https://github.com/LEMS/pylems
 
 Package license: LGPL-3.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pylems-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python library for working with the Low Entropy Model Specification language (LEMS)
 
-
+Development: https://github.com/LEMS/pylems
 
 Current build status
 ====================
