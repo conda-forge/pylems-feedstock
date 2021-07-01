@@ -23,7 +23,7 @@ requirements:
   run:
     - python >=2.7
     - lxml
-    - typing  # [py<35]
+    - typing
 
 test:
   imports:
