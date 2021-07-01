@@ -1,6 +1,6 @@
 {% set name = "PyLEMS" %}
-{% set version = "0.5.2" %}
-{% set sha256 = "d35636c809fb70f12e7cf278466280f62df09287a727003a4d63a84e59c33757" %}
+{% set version = "0.5.5" %}
+{% set sha256 = "ea1050e348b7072c8e1e64e8d8ac266da7723baef9d4ec0744110eb3fdc32279" %}
 
 package:
   name: {{ name|lower }}
@@ -19,9 +19,9 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=2.7
   run:
-    - python
+    - python >=2.7
 
 test:
   imports:
@@ -36,7 +36,7 @@ test:
 
 about:
   home: https://github.com/LEMS/pylems
-  license: LGPL-3.0
+  license: LGPL-3.0-only
   license_family: LGPL
   license_file: LICENSE.lesser
   summary: A Python library for working with the Low Entropy Model Specification language (LEMS)
