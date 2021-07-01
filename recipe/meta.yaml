@@ -36,7 +36,7 @@ test:
 
 about:
   home: https://github.com/LEMS/pylems
-  license: LGPL-3.0
+  license: LGPL-3.0-only
   license_family: LGPL
   license_file: LICENSE.lesser
   summary: A Python library for working with the Low Entropy Model Specification language (LEMS)
