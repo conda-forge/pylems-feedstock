@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -22,6 +22,8 @@ requirements:
     - python >=2.7
   run:
     - python >=2.7
+    - lxml
+    - typing
 
 test:
   imports:
