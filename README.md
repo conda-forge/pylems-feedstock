@@ -3,7 +3,7 @@ About pylems
 
 Home: https://github.com/LEMS/pylems
 
-Package license: LGPL-3.0
+Package license: LGPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pylems-feedstock/blob/master/LICENSE.txt)
 
