@@ -1,6 +1,6 @@
 {% set name = "PyLEMS" %}
-{% set version = "0.5.5" %}
-{% set sha256 = "ea1050e348b7072c8e1e64e8d8ac266da7723baef9d4ec0744110eb3fdc32279" %}
+{% set version = "0.5.9" %}
+{% set sha256 = "a6df3ff67197f5d09da72597814a3261238d3d2588af6793f92c55beccf801c3" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
