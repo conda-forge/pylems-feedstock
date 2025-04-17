@@ -1,6 +1,6 @@
 {% set name = "PyLEMS" %}
-{% set version = "0.6.7" %}
-{% set sha256 = "b82b66dbe51206b6c3db915651aadfeb6e8eeb5a95d3114ca8b97725f2fafce6" %}
+{% set version = "0.6.8" %}
+{% set sha256 = "940ffac3c05d5987db09060fe13297d40ebe9d3a8ac9281be15122eb3d7aaaa1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | lower }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
